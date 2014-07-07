@@ -25,7 +25,7 @@
         
         <header-file src="src/ios/CDVCrittercism.h" />
         <source-file src="src/ios/CDVCrittercism.m" />
-        <framework src="src/ios/CrittercismFramework/CrittercismAgent.framework" custom="true" />
+        <framework src="src/ios/CrittercismSDK/libCrittercism_v4_3_4.framework" custom="true" />
         <framework src="CoreTelephony.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="libz.dylib" />
