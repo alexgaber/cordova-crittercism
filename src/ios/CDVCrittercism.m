@@ -7,6 +7,7 @@
 //
 
 #import "CDVCrittercism.h"
+#import <CrittercismSDK/Crittercism.h>
 
 @implementation CDVCrittercism
 
@@ -18,7 +19,7 @@
 - (void)pluginInitialize
 {
     NSString* appID = [self settingForKey:@"CrittercismAppID"];
-    [Crittercism startWithApplicationToken:appID];
+    [Crittercism enableWithAppID:appID];
 }
 
 @end

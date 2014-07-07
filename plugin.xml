@@ -28,7 +28,8 @@
 		<header-file src="src/ios/CrittercismSDK/CRFilter.h" />
 		<header-file src="src/ios/CrittercismSDK/Crittercism.h" />
 		<header-file src="src/ios/CrittercismSDK/CrittercismDelegate.h" />
-		<source-file src="src/ios/CrittercismSDK/libCrittercism_v4_3_4.a" />
+		<source-file src="src/ios/CrittercismSDK/libCrittercism_v4_3_4.a" framework="true" />
+		<source-file src="src/ios/CrittercismSDK/dsym_upload.sh" />
 		<framework src="CoreTelephony.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="libz.dylib" />
