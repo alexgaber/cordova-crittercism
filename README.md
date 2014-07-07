@@ -14,8 +14,7 @@ cordova plugin add https://github.com/alexgaber/cordova-crittercism.git
 
 ## Usage
 
-Use the following code at the time of app initialization. You need to
-sign-up with the [Crittercism](http://crittercism.com/) to get a valid key.
+Once installing the plugin via Cordova CLI, you just need to make one configuration change and you're all set.  You need to go into your Plugins directory, then com.alexgaber.CrittercismCordova, then the 'src' directory, then 'ios' and then edit the CDVCrittercism.m file, and change the App ID to the one you obtained at Crittercism.com.
 
 ```
-plugins.crittercism.init(key);
+[Crittercism enableWithAppID:@"53bb10a607229a5c7b000001"];  
