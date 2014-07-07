@@ -7,19 +7,13 @@
 //
 
 #import "CDVCrittercism.h"
-#import <CrittercismSDK/Crittercism.h>
+#import "Crittercism.h"
 
 @implementation CDVCrittercism
 
-- (id)settingForKey:(NSString*)key
-{
-    return [self.commandDelegate.settings objectForKey:[key lowercaseString]];
-}
-
 - (void)pluginInitialize
 {
-    NSString* appID = [self settingForKey:@"CrittercismAppID"];
-    [Crittercism enableWithAppID:appID];
+    [Crittercism enableWithAppID:@"53011fe0558d6a42f4000003"];
 }
 
 @end
