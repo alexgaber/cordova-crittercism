@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CrittercismSDK/Crittercism.h>
+#import "Crittercism.h"
 #import <Cordova/CDV.h>
 
 @interface CDVCrittercism : CDVPlugin {
