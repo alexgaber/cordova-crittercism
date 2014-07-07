@@ -20,7 +20,7 @@
             <feature name="Crittercism">
                 <param name="ios-package" value="CDVCrittercism" onload="true" />
             </feature>
-            <preference name="CrittercismAppID" value="CHANGEME" />
+            // <preference name="CrittercismAppID" value="CHANGEME" />
         </config-file>
         
         <header-file src="src/ios/CDVCrittercism.h" />
