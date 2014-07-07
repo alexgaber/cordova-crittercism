@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.alexgaber.CrittercismCordova"
+    version="1.0.0">
+    <name>CrittercismCordova</name>
+    <description>This plugin adds Crittercism Mobile App Performance Monitoring to your application.</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,crittercism,crash,monitor</keywords>
+
+    <engines>
+            <engine name="cordova" version=">=3.3.0" />
+    </engines>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Crittercism">
+                <param name="ios-package" value="CDVCrittercism" onload="true" />
+            </feature>
+            <preference name="CrittercismAppID" value="CHANGEME" />
+        </config-file>
+        
+        <header-file src="src/ios/CDVCrittercism.h" />
+        <source-file src="src/ios/CDVCrittercism.m" />
+        <framework src="src/ios/CrittercismFramework/CrittercismAgent.framework" custom="true" />
+        <framework src="CoreTelephony.framework" />
+        <framework src="SystemConfiguration.framework" />
+        <framework src="libz.dylib" />
+    </platform>
+
+</plugin>
