@@ -11,15 +11,11 @@
 
 @implementation CDVCrittercism
 
-- (id)settingForKey:(NSString*)key
-{
-    return [self.commandDelegate.settings objectForKey:[key lowercaseString]];
-}
 
-- (void)pluginInitialize
+- (void)pluginInitialize:(NSString*)CrittercismAppID
 {
-    NSString* appID = [self settingForKey:@"CrittercismAppID"];
-    [Crittercism enableWithAppID:appID];
+ 
+    [Crittercism enableWithAppID:CrittercismAppID];
 }
 
 @end
