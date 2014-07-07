@@ -25,10 +25,10 @@
         
         <header-file src="src/ios/CDVCrittercism.h" />
         <source-file src="src/ios/CDVCrittercism.m" />
-		<source-file src="Plugins/CRFilter.h" />
-		<source-file src="Plugins/Crittercism.h" />
-		<source-file src="Plugins/CrittercismDelegate.h" />
-		<source-file src="Plugins/libCrittercism_v4_3_4.a" />
+		<source-file src="src/ios/CrittercismSDK/CRFilter.h" />
+		<source-file src="src/ios/CrittercismSDK/Crittercism.h" />
+		<source-file src="src/ios/CrittercismSDK/CrittercismDelegate.h" />
+		<source-file src="src/ios/CrittercismSDK/libCrittercism_v4_3_4.a" />
 		<framework src="CoreTelephony.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="libz.dylib" />
