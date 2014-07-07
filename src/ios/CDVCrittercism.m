@@ -2,7 +2,7 @@
 //  CDVCrittercism.m
 //  
 //
-//  developer by alex gaber July 2014
+//  developed by alex gaber July 2014
 //
 //
 
@@ -13,7 +13,7 @@
 
 - (void)pluginInitialize
 {
-    [Crittercism enableWithAppID:@"53011fe0558d6a42f4000003"];
+    [Crittercism enableWithAppID:@"53bb10a607229a5c7b000001"];
 }
 
 @end
