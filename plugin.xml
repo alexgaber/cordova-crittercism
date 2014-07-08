@@ -11,16 +11,17 @@
     <keywords>cordova,crittercism,crash,monitor</keywords>
 
     <engines>
-            <engine name="cordova" version=">=3.4.0" />
+            <engine name="cordova" version=">=3.3.0" />
     </engines>
 
     <!-- ios -->
     <platform name="ios">
-        <config-file target="config.xml" parent="/*" />
+        <config-file target="config.xml" parent="/*">
             <feature name="Crittercism">
                 <param name="ios-package" value="CDVCrittercism" onload="true" />
             </feature>
-           <preference name="CrittercismAppID" value="CHANGEME" />
+            // <preference name="CrittercismAppID" value="CHANGEME" />
+        </config-file>
         
         <header-file src="src/ios/CDVCrittercism.h" />
         <source-file src="src/ios/CDVCrittercism.m" />

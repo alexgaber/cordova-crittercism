@@ -1,6 +1,6 @@
 # cordova-crittercism
 
-Cordova Crittercism plugin repository. It works with cordova-3.4.0 and is currently for iOS apps only.  (Android coming soon)
+Cordova Crittercism plugin repository. It works with cordova-3.4.0.
 
 ## Installation
 
