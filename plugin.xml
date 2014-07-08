@@ -16,7 +16,7 @@
 
     <!-- ios -->
     <platform name="ios">
-        <config-file target="config.xml" parent="/*">
+        <config-file target="config.xml" parent="/*" />
             <feature name="Crittercism">
                 <param name="ios-package" value="CDVCrittercism" onload="true" />
             </feature>
