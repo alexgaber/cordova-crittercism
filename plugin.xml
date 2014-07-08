@@ -11,7 +11,7 @@
     <keywords>cordova,crittercism,crash,monitor</keywords>
 
     <engines>
-            <engine name="cordova" version=">=3.3.0" />
+            <engine name="cordova" version=">=3.4.0" />
     </engines>
 
     <!-- ios -->
