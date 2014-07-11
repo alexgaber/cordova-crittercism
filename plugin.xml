@@ -34,5 +34,13 @@
         <framework src="SystemConfiguration.framework" />
         <framework src="libz.dylib" />
     </platform>
+	
+	<!-- android -->
+	<platform name="android">
+		
+	
+	
+	</platform>
+
 
 </plugin>
