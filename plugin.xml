@@ -45,6 +45,18 @@
 		 </js-module>
 		   <source-file src="src/android/DatePickerPlugin.java" target-dir="src/com/plugin/datepicker" />
 	</platform>
+	<platform name="wp8">
+	        <config-file target="config.xml" parent="/*">
+	            <feature name="DateTimePicker">
+	                <param name="wp-package" value="DateTimePicker"/>
+	            </feature>
+	        </config-file>
+	        <js-module src="www/wp8/DatePicker.js" name="DateTimePicker">
+	            <clobbers target="datePicker" />
+	        </js-module>
 
+	        <source-file src="src/wp8/DateTimePicker.cs"/>
+	        <source-file src="src/wp8/DateTimePickerTask.cs"/>
+	</platform>
 
 </plugin>
